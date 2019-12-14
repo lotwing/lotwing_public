@@ -1,0 +1,16 @@
+.footer-bar
+  #footer-container
+    %ul
+      %li
+        = link_to "Contact Us", 'mailto:dietmar@lotwing.com'
+      %li
+        = link_to "Terms of service", '/terms-of-service'
+      %li
+        = link_to "Privacy policy", '/privacy-policy'
+      %li
+        %a{:href => "#"} 
+          All rights reserved. 
+          &copy; 
+          :javascript
+            document.write(new Date().getFullYear());
+          LotWing, LLC.
