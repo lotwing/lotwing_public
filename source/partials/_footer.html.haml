@@ -8,9 +8,12 @@
       %li
         = link_to "Privacy policy", '/privacy-policy'
       %li
-        %a{:href => "#"} 
-          All rights reserved. 
-          &copy; 
+        %a{:href => "#"}
+          All rights reserved.
+          &copy;
           :javascript
             document.write(new Date().getFullYear());
           LotWing, LLC.
+      %li{style: 'float: right'}
+        = link_to "https://apps.apple.com/us/app/lotwing/id1454764747", target: "_blank" do
+          = image_tag 'app_store_black.svg'
