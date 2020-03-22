@@ -14,6 +14,9 @@
           :javascript
             document.write(new Date().getFullYear());
           LotWing, LLC.
-      %li{style: 'float: right'}
+      %li{style: 'float: right; border-right: 0;'}
         = link_to "https://apps.apple.com/us/app/lotwing/id1454764747", target: "_blank" do
-          = image_tag 'app_store_black.svg'
+          = image_tag 'apple_logo_small.png', style: 'height: 45px;'
+      %li{style: 'float: right'}
+        = link_to "https://play.google.com/store/apps/details?id=com.lotwing", target: "_blank" do
+          = image_tag 'google-play-badge.png', style: 'height: 45px;'
